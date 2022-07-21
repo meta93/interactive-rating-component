@@ -1,6 +1,10 @@
-.attribution {
-font-size: 11px; text-align: center; 
+body{
+	background-color: hsl(216,12%,8%);
+	color: white;
+	padding: 151px 23px;	
 }
-.attribution a {
-color: hsl(228, 45%, 44%);
+.container{
+	padding: 27px;
+	background-color: hsl(213, 19%, 50%);
+	border-radius: 10px;
 }
