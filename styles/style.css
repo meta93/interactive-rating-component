@@ -7,7 +7,12 @@ body{
 	font-weight: 400;
 }
 .container{
-	padding: 27px;
+	padding: 30px;
 	background-color: hsl(213, 19%, 50%);
 	border-radius: 10px;
+}
+
+main{
+	padding-top: 5%;
+	margin: auto;
 }
