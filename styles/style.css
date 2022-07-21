@@ -1,7 +1,10 @@
 body{
 	background-color: hsl(216,12%,8%);
 	color: white;
-	padding: 151px 23px;	
+	padding: 151px 23px;
+	Font-size : 15px;
+	font-family: overpass;
+	font-weight: 400;
 }
 .container{
 	padding: 27px;
