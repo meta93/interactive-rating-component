@@ -18,15 +18,42 @@ main{
 padding-top: 5%;
 margin: auto;
 }
+.class-wrapper .rate{
+	border-radius:50px;
+	border: 0px solids;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	background-color: #617795;
+
+	}
 .star-icon{
 width: 40px;
 height: 40px;
 border-radius: 50px;
 border :0px solid;
-background-color: #272f3a;
+background-color: #617795;
 display: grid;
 align-items: center;
 justify-content: center;
 }
 .star-icon img{
+}
+.class-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.sub-button{
+	background-color: hsl(25, 97%, 53%);
+	display: block;
+	height: 40px;
+	width: 100%;
+	margin-top: 40px;
+	border: none;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+	text-transform:uppercase ;
 }
