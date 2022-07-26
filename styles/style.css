@@ -109,12 +109,20 @@ justify-content: center;
 	background-color: #232A34;
 	color: hsl(25, 97%, 53%);;
 }
+.sel p{
+	height: 24px;
+left: 10.36%;
+right: 9.84%;
+text-align: center;
+
+}
 
 #gra{
 font-style: normal;
 font-weight: 700;
 font-size: 28px;
 line-height: 35px;
+text-align: center;
 color: #FFFFFF;}
 
 #gra{
