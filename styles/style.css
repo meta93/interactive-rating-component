@@ -32,7 +32,7 @@ padding: 30px;
 background-color:#272f3a;
 border-radius: 10px;
 max-width: 416px;
-margin: auto;
+/* margin: auto; */
 
 }
 main{
@@ -90,3 +90,38 @@ justify-content: center;
 	background-color: white;
 	color: hsl(25, 97%, 53%);
 }
+.feedba{
+	width: 40p%;
+	height: 40%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+.sel{
+	border-radius: 20px;
+	display: grid;
+	justify-content: center;
+	width: 193px;
+	height: 32px;
+	align-items: center;
+	left: 624px;
+	top: 380px;
+	background-color: #232A34;
+	color: hsl(25, 97%, 53%);;
+}
+
+#gra{
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+color: #FFFFFF;}
+
+#gra{
+height: 72px;
+left: 37.92%;
+right: 38.47%;
+text-align: center;
+color: #969FAD;
+}
+
