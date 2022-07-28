@@ -66,8 +66,7 @@ display: grid;
 align-items: center;
 justify-content: center;
 }
-.star-icon img{
-}
+
 .class-wrapper{
 	display: flex;
 	justify-content: space-between;
@@ -125,7 +124,7 @@ line-height: 35px;
 text-align: center;
 color: #FFFFFF;}
 
-#gra{
+#message{
 height: 72px;
 left: 37.92%;
 right: 38.47%;
