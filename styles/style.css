@@ -1,16 +1,13 @@
 @media screen and (min-width: 417px)
 {
-	html{
-		height: 100%;
-	}
 	main{
 		display: grid;
 		justify-content: center;
 		align-items: center;
 	}
-	.container{
+	/* .container{
 		max-width: 416px;
-	}
+	} */
 
 	body{
 		padding: 0;
