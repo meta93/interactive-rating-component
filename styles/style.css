@@ -1,44 +1,53 @@
-@media screen and (min-width: 417px)
-{
-	main{
+@media screen and (min-width: 417px) {
+	main {
 		display: grid;
 		justify-content: center;
 		align-items: center;
 	}
-	/* .container{
-		max-width: 416px;
-	} */
 
-	body{
+	.container{
+		max-width: 416px;
+	}
+	.html{
+		height: 100%;
+	}
+
+	body {
 		padding: 0;
 		display: block;
 		align-items: center;
 		height: 100%;
 	}
 }
-body{
-background-color:  hsl(216,12%,8%);
-color: white;
-padding: 151px 23px;
-Font-size : 15px;
-font-family: overpass;
-font-weight: 400;
-}
-.container{
-padding: 30px;
-background-color:#272f3a;
-border-radius: 10px;
-max-width: 416px;
-/* margin: auto; */
 
-}
-main{
-padding-top: 5%;
-margin: auto;
+body {
+	background-color: hsl(216, 12%, 8%);
+	color: white;
+	padding: 151px 23px;
+	Font-size: 15px;
+	font-family: overpass;
+	font-weight: 400;
 }
 
-.class-wrapper .rate{
-	border-radius:50px;
+.container {
+	padding: 30px;
+	background-color: #272f3a;
+	border-radius: 10px;
+	max-width: 416px;
+	margin: auto;
+}
+
+.card-inner{
+	padding: 27px;
+}
+
+main {
+	padding-top: 5%;
+	margin: auto;
+}
+
+.class-wrapper .rate {
+	border-radius: 50px;
 	border: 0px solids;
 	align-items: center;
 	width: 40px;
@@ -46,86 +55,55 @@ margin: auto;
 	display: flex;
 	justify-content: center;
 	background-color: #617795;
-	}
-
-.class-wrapper .rate:hover{
-	background-color:hsl(25, 97%, 53%);
-	color: white;
-} 
-
-.star-icon{
-width: 40px;
-height: 40px;
-border-radius: 50px;
-border :0px solid;
-background-color: #617795;
-display: grid;
-align-items: center;
-justify-content: center;
 }
 
-.class-wrapper{
+.class-wrapper .rate:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: white;
+}
+
+.star-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	border: 0px solid;
+	background-color: #617795;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.class-wrapper {
 	display: flex;
 	justify-content: space-between;
 }
 
-.sub-button{
+.sub-button {
 	background-color: hsl(25, 97%, 53%);
 	display: block;
 	height: 40px;
 	width: 100%;
-	margin-top: 40px ;
+	margin-top: 40px;
 	border: none;
 	border-radius: 15px;
 	color: white;
 	text-align: center;
-	text-transform:uppercase ;
+	text-transform: uppercase;
 }
 
-.sub-button:hover{
+.sub-button:hover {
 	background-color: white;
 	color: hsl(25, 97%, 53%);
 }
-.feedba{
-	width: 40p%;
+
+.feedba {
 	height: 40%;
 	display: grid;
 	align-items: center;
 	justify-content: center;
 }
-.sel{
-	border-radius: 20px;
-	display: grid;
-	justify-content: center;
-	width: 193px;
-	height: 32px;
-	align-items: center;
-	left: 624px;
-	top: 380px;
-	background-color: #232A34;
-	color: hsl(25, 97%, 53%);;
+
+.card-thank-you img{
+	display: block;
+	margin: 0px auto 25px ;
 }
-.sel p{
-	height: 24px;
-left: 10.36%;
-right: 9.84%;
-text-align: center;
-
-}
-
-#gra{
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 35px;
-text-align: center;
-color: #FFFFFF;}
-
-#message{
-height: 72px;
-left: 37.92%;
-right: 38.47%;
-text-align: center;
-color: #969FAD;
-}
-
