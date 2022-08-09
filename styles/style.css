@@ -53,12 +53,10 @@ main {
 	background: #262E38;
 	color: #7C8798;
 }
-
 .class-wrapper .rate:hover {
 	background-color: hsl(25, 97%, 53%);
 	color: white;
 }
-
 .star-icon {
 	width: 40px;
 	height: 40px;
@@ -92,23 +90,19 @@ main {
 	background-color: white;
 	color: hsl(25, 97%, 53%);
 }
-
 .feedba {
 	height: 40%;
 	display: grid;
 	align-items: center;
 	justify-content: center;
 }
-
 .card-thank-you img {
 	display: block;
 	margin: 0px auto 25px;
 }
-
 .card-thank-you {
 	text-align: center;
 }
-
 .rating-wrap {
 	height: 32px;
 	display: inline-block;
@@ -118,7 +112,6 @@ main {
 	background-color: #262E38;
 	border-radius: 22.5px;
 	margin-bottom: 30px;
-
 }
 .card-thank-you h1 {
 	margin-top: 0;
