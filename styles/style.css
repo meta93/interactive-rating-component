@@ -5,10 +5,11 @@
 		align-items: center;
 	}
 
-	.container{
+	.container {
 		max-width: 416px;
 	}
-	.html{
+
+	.html {
 		height: 100%;
 	}
 
@@ -31,13 +32,13 @@ body {
 
 .container {
 	padding: 30px;
-	background-color: #272f3a;
-	border-radius: 10px;
+	background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+	border-radius: 30px;
 	max-width: 416px;
 	margin: auto;
 }
 
-.card-inner{
+.card-inner {
 	padding: 27px;
 }
 
@@ -54,7 +55,8 @@ main {
 	height: 40px;
 	display: flex;
 	justify-content: center;
-	background-color: #617795;
+	background: #262E38;
+	color: #7C8798;
 }
 
 .class-wrapper .rate:hover {
@@ -67,7 +69,7 @@ main {
 	height: 40px;
 	border-radius: 50px;
 	border: 0px solid;
-	background-color: #617795;
+	background: #262E38;
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -85,7 +87,7 @@ main {
 	width: 100%;
 	margin-top: 40px;
 	border: none;
-	border-radius: 15px;
+	border-radius: 22.5px;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -103,7 +105,27 @@ main {
 	justify-content: center;
 }
 
-.card-thank-you img{
+.card-thank-you img {
 	display: block;
-	margin: 0px auto 25px ;
+	margin: 0px auto 25px;
+}
+
+.card-thank-you {
+	text-align: center;
+}
+
+.rating-wrap {
+	height: 32px;
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 24px;
+	color: #FC7614;
+	background-color: #262E38;
+	border-radius: 22.5px;
+	margin-bottom: 30px;
+
+}
+.card-thank-you h1{
+	margin-top: 0;
+	margin-bottom: 21px;
 }
