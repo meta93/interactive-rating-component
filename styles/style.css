@@ -39,7 +39,7 @@ main {
 	padding-top: 5%;
 	margin: auto;
 }
-.class-wrapper .rate {
+.class-wrapper .rate{
 	border-radius: 50px;
 	border: 0px solids;
 	align-items: center;
@@ -50,7 +50,10 @@ main {
 	background: #262E38;
 	color: #7C8798;
 }
-
+.class-wrapper .rate.selected{
+	color: white;
+	background-color:#7C8798;
+}
 .class-wrapper a:link{
 	text-decoration: none;
 	
