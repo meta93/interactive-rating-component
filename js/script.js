@@ -1,12 +1,14 @@
-const subbt = document.querySelector(".sub-button");
-const selwrap = document.querySelector(".class-wrapper");
-const wrap_container = document.querySelector(".container");
-const select_wrapper = document.querySelector(".select-wrapper");
-const ratings = document.querySelector('.rate');
+const rate = document.querySelectorAll(".rate"); //individual button class ref
+const sub = document.querySelector(".sub-button"); //Submit button class
 
-ratings.forEach(rate => {
- ratings.addEventListener (rate)
-  rate.preventDefault();
-  this.classist.add(".selected");
+rate.forEach((rate) => {
+  rate.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    this.classList.add("selected");
+    
+    rate.forEach((rate) => {
+      rate.classList.remove("selected");
+    });
+  });
 });
-  
