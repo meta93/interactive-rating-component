@@ -50,7 +50,7 @@ main {
 	background: #262E38;
 	color: #7C8798;
 }
-.class-wrapper .rate.selected{
+.class-wrapper .rate .selected{
 	color: white;
 	background-color:#7C8798;
 }
@@ -121,4 +121,7 @@ main {
 .card-thank-you h1 {
 	margin-top: 0;
 	margin-bottom: 21px;
+}
+.hidden{
+	display: none;
 }

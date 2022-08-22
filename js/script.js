@@ -1,14 +1,9 @@
-const rate = document.querySelectorAll(".rate"); //individual button class ref
-const sub = document.querySelector(".sub-button"); //Submit button class
+const maincard = document.querySelector(".main-card");
+const thankyou = document.querySelector(".card-thank-you");
+const ratings = document.getElementById("ratings");
+const submi = document.querySelector(".sub-button");
 
-rate.forEach((rate) => {
-  rate.addEventListener("click", function (event) {
-    event.preventDefault();
-
-    this.classList.add("selected");
-    
-    rate.forEach((rate) => {
-      rate.classList.remove("selected");
-    });
-  });
+submi.addEventListener("click", () => {
+  thankyou.classList.remove("hidden");
+  maincard.style.display="none";
 });
